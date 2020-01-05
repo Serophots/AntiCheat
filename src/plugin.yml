@@ -1,0 +1,5 @@
+name: AntiCheat
+main: me.Serophots.AntiCheat.Main
+version: 1.0.0
+commands:
+  getflags:

@@ -1,0 +1,68 @@
+checks:
+  fastladdera:
+    enabled: true
+    cancelMovement: true
+    yLimit: 0.1177
+    threshold: 10
+    command: "/kick <player> cheating"
+  flya:
+    enabled: true
+    cancelMovement: false
+    threshold: 50
+    command: "/kick <player> cheating"
+  flyb:
+    enabled: true
+    cancelMovement: false
+    equal: 0.0115
+    threshold: 50
+    command: "/kick <player> cheating"
+  flyc:
+    enabled: true
+    cancelMovement: false
+    maxCounter: 8
+    threshold: 5
+    command: "/kick <player> cheating"
+  jesusa:
+    enabled: true
+    cancelMovement: false
+    threshold: 15
+    command: "/kick <player> cheating"
+  jesusb:
+    enabled: true
+    cancelMovement: false
+    maxCounter: 5
+    threshold: 5
+    command: "/kick <player> cheating"
+  jesusc:
+    enabled: true
+    cancelMovement: false
+    threshold: 10
+    maxDist: 0.034
+    command: "/kick <player> cheating"
+  nofalla:
+    enabled: true
+    cancelMovement: false
+    threshold: 1
+    command: "/kick <player> cheating"
+  speeda:
+    enabled: true
+    cancelMovement: false
+    threshold: 10
+    command: "/kick <player> cheating"
+  speedb:
+    enabled: true
+    cancelMovement: false
+    maxDist: 0.107
+    threshold: 10
+    command: "/kick <player> cheating"
+  speedc:
+    enabled: true
+    cancelMovement: false
+    threshold: 30
+    command: "/kick <player> cheating"
+  speedd:
+    enabled: true
+    cancelMovement: false
+    maxMove: 0.1
+    threshold: 30
+    command: "/kick <player> cheating"
